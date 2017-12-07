@@ -1,0 +1,23 @@
+{
+    "name": "distinctive/moneyOrderSurcharge",
+    "description": "N/A",
+    "authors": [
+      {
+        "name": "Yogesh Agarwal",
+        "email": "yogesh.agarwal1215@gmail.com"
+      }
+    ],
+    "require": {
+        "php": "~5.6.5|7.0.2|7.0.4|~7.0.6"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Distinctive\\MoneyOrderSurcharge\\": ""
+        }
+    }
+}
